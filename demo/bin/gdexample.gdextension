@@ -5,6 +5,8 @@ compatibility_minimum = "4.2"
 
 [libraries]
 
+web.debug = "res://bin/libgdexample.web.template_debug.wasm32.wasm"
+web.release = "res://bin/libgdexample.web.template_release.wasm32.wasm"
 macos.debug = "res://bin/libgdexample.macos.template_debug.framework"
 macos.release = "res://bin/libgdexample.macos.template_release.framework"
 windows.debug.x86_32 = "res://bin/libgdexample.windows.template_debug.x86_32.dll"
